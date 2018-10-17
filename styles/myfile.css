@@ -1,7 +1,21 @@
-body {
-    background-color: coral;
-}
 h1 {
   font-family: fantasy;
   font-size: 50px;
+}
+h2 {
+  font-family: fantasy;
+  font-size: 40px;
+}
+h3 {
+  font-family: fantasy;
+  font-size: 30px;
+}
+h4 {
+  font-family: fantasy;
+  font-size: 20px;
+}
+img {
+  border: 5px solid black;
+  border-radius: 50px;
+
 }
