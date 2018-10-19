@@ -10,12 +10,57 @@ h3 {
   font-family: fantasy;
   font-size: 30px;
 }
-h4 {
+*h4 {
   font-family: fantasy;
   font-size: 20px;
 }
 img {
   border: 5px solid black;
   border-radius: 50px;
-
+}
+.springgreen {
+  background-color: springgreen;
+}
+.violet {
+  background-color: violet;
+}
+.cadetblue {
+  background-color: cadetblue;
+}
+#h1 {
+  text-decoration: underline overline dotted firebrick;
+}
+#h2 {
+  text-decoration: underline overline dotted crimson;
+}
+#body {
+  background-color: coral;
+}
+p {
+  font-weight: normal;
+  font-size: normal;
+  color: normal;
+}
+a:hover {
+  font-style: italic;
+}
+a:visited {
+  text-decoration: underline black;
+}
+a:active {
+  background-color: gray;
+}
+ul > li {
+  font-style: italic;
+  font-weight: bold;
+}
+h1 + p {
+  font-style: normal;
+}
+h2 ~ p {
+  font-style: normal;
+}
+ol > li {
+  font-style: italic;
+  font-weight: bold;
 }
