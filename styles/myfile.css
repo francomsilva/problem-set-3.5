@@ -17,6 +17,9 @@ h3 {
 img {
   border: 5px solid black;
   border-radius: 50px;
+  height: 600px;
+  width: 400px;
+  padding: 1px;
 }
 .springgreen {
   background-color: springgreen;
@@ -63,4 +66,13 @@ h2 ~ p {
 ol > li {
   font-style: italic;
   font-weight: bold;
+}
+[lang|="en"] {
+  font-style: normal;
+}
+li[data-instrument] {
+  color: red;
+}
+th[data-th] {
+  color:gray
 }
